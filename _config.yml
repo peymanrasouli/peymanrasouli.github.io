@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Data Scientist"
   avatar           : "photo.jpg"
-  bio              : "PhD researcher at the University of Oslo (UiO), studying AI explainability"
+  bio              : "PhD Reseaech Fellow in Data Science, studying AI explainability"
+  employer         : "University of Oslo (UiO)"
   location         : "Oslo, Norway"
-  employer         : # ""
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=MFV9RoTcbgcC"
   email            : "peymanra@ifi.uio.no"
