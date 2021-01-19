@@ -17,6 +17,5 @@ Research Interests
 - Machine Learning
 - Computer Vision
 - eXplainable AI (XAI)
-- Interpretability
 
 
