@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Data Science Enthusiasm"
+  name             : "Data Scientist"
   avatar           : "photo.jpg"
-  bio              : "PhD Researcher in Data Science"
+  bio              : "PhD Researcher in XAI"
   location         : "Oslo, Norway"
   employer         : "University of Oslo (UiO)"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
