@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Data Scientist"
   avatar           : "photo.jpg"
-  bio              : "PhD Researcher in XAI"
+  bio              : "PhD researcher at the University of Oslo (UiO), working on eXplainable AI (XAI)"
   location         : "Oslo, Norway"
-  employer         : "University of Oslo (UiO)"
+  employer         : ""
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=MFV9RoTcbgcC"
   email            : "peymanra@ifi.uio.no"
