@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Data Scientist"
   avatar           : "photo.jpg"
-  bio              : "PhD Reseaech Fellow in Data Science, studying AI explainability"
-  employer         : "University of Oslo (UiO)"
+  bio              : "PhD researcher at the University of Oslo (UiO), studying XAI"
+  employer         : ""
   location         : "Oslo, Norway"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=MFV9RoTcbgcC"
