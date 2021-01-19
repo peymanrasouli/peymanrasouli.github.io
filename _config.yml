@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Data Scientist"
   avatar           : "photo.jpg"
-  bio              : "PhD researcher at University of Oslo (UiO), studying AI explainability"
+  bio              : "PhD researcher at the University of Oslo (UiO), studying AI explainability"
   location         : "Oslo, Norway"
   employer         : # ""
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
