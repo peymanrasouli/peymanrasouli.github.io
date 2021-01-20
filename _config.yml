@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Data Scientist"
+  name             : "Research Scientist"
   avatar           : "photo.jpg"
-  bio              : "PhD Researcher @ UiO, Working on Explainable AI"
+  bio              : "PhD Researcher @ UiO, Data Science Enthusiast"
   employer         : # ""
   location         : "Oslo, Norway"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
