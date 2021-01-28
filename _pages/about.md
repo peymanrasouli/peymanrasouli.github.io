@@ -15,7 +15,7 @@ I received my M.Sc. degree in Artificial Intelligence from Qazvin Islamic Azad U
 Research Interests
 =====
 - Machine Learning
+- Data Mining
 - Explainable AI (XAI)
-- Computational Intelligence
 
 
