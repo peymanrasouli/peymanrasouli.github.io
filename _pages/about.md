@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Peyman Rasouli"
-excerpt: ""
+title: ""
+excerpt: "Peyman Rasouli"
 author_profile: true
 redirect_from: 
   - /about/
