@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data Science Enthusiast"
+title                    : "Peyman Rasouli"
 title_separator          : "-"
 name                     : "Peyman Rasouli"
 description              : &description "personal description"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Peyman Rasouli"
+  name             : "Data Science Enthusiast"
   avatar           : "photo.jpg"
   bio              : "PhD Researcher @ University of Oslo (UiO), Studying Explainable AI (XAI)"
   employer         : # ""
