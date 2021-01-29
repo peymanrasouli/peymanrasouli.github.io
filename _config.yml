@@ -9,13 +9,13 @@
 locale                   : "en-US"
 title                    : "Peyman Rasouli"
 title_separator          : "-"
-name                     : &name "Peyman Rasouli"
+name                     : "Peyman Rasouli"
 description              : &description "personal description"
 url                      : https://peymanrasouli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "peymanrasouli.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
