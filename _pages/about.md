@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: ""
-excerpt: "Peyman Rasouli"
-author_profile: true
+title: "Peyman Rasouli"
+excerpt: ""
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
