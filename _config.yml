@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Peyman Rasouli"
 title_separator          : "-"
-name                     : &name "Peyman Rasouli"
+name                     : &name "Data Science Enthusiast"
 description              : &description "personal description"
 url                      : https://peymanrasouli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Data Science Enthusiast"
+  name             : "Peyman Rasouli"
   avatar           : "photo.jpg"
   bio              : "PhD Researcher @ University of Oslo (UiO), Studying Explainable AI (XAI)"
   employer         : # ""
