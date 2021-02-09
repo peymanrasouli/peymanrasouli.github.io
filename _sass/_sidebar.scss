@@ -32,10 +32,11 @@
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     font-family: $sans-serif-narrow;
+    font-size: $type-size-3;
   }
 
   h3, h4 {
-    font-size: $type-size-4;
+    font-size: $type-size-3;
   }
 
   p, li {
