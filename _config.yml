@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hi, I'm Peyman Rasouli!"
+title                    : "Peyman Rasouli!"
 title_separator          : "-"
-name                     : "Hi, I'm Peyman Rasouli!"
+name                     : "Peyman Rasouli"
 description              : &description "personal description"
 url                      : https://peymanrasouli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
