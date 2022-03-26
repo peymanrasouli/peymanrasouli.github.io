@@ -18,7 +18,6 @@ Research Interests
 - Machine Learning
 - Explainable AI (XAI)
 - Data Mining
-- Knowledge Discovery
 - Computational Intelligence
 
 
