@@ -11,12 +11,13 @@ About Me
 =====
 I am a PhD candidate in Computer Science at the University of Oslo (UiO), Norway, advised by [Dr. Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (Associate Professor, UiO) and [Dr. Aida Omerovic](https://www.sintef.no/en/all-employees/employee/aida.omerovic/) (Research Manager, SINTEF). As a member of the Center for Scalable Data Access (SIRIUS), I do research on Explainable AI (XAI). My research involves interpreting, refining, and validating black-box machine learning models. I am deeply excited about making AI decision systems explainable, transparent, and accountable. 
 
-I received my M.Sc. degree in Artificial Intelligence from Qazvin Islamic Azad University (QIAU), Iran, in 2016, where I worked on data clustering based on graphical models under the supervision of [Dr. Mohammad Reza Meybodi](http://ceit.aut.ac.ir/~meybodi/) (Professor, Amirkabir University of Technology). In 2012, I received my B.Sc. degree in Computer Software Technology Engineering from Islamic Azad University, Mahabad Branch, Iran.  
+I received my M.Sc. degree in Artificial Intelligence from Qazvin Islamic Azad University (QIAU), Iran, in 2016, where I worked on data clustering and image segmentation based on graphical models under the supervision of [Dr. Mohammad Reza Meybodi](http://ceit.aut.ac.ir/~meybodi/) (Professor, Amirkabir University of Technology). In 2012, I received my B.Sc. degree in Computer Software Technology Engineering from Islamic Azad University, Mahabad Branch, Iran.  
 
 Research Interests
 =====
 - Machine Learning
 - Explainable AI (XAI)
 - Data Mining
+- Computer Vision
 
 
