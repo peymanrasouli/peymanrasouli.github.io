@@ -9,15 +9,11 @@ redirect_from:
 ---
 About Me
 =====
-I am a PhD candidate in Computer Science at the University of Oslo (UiO), Norway, advised by [Dr. Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (Associate Professor, UiO) and [Dr. Aida Omerovic](https://www.sintef.no/en/all-employees/employee/aida.omerovic/) (Research Manager, SINTEF). As a member of the Center for Scalable Data Access (SIRIUS), I do research on Explainable AI (XAI). My research involves interpreting, refining, and validating black-box machine learning models. I am deeply excited about making AI decision systems explainable, transparent, and accountable. 
+I am deeply passionate about the world of artificial intelligence, possessing a rich blend of theoretical insights and hands-on experience in Machine Learning (ML) and Explainable AI (XAI). My analytical acumen is complemented by an innate problem-solving spirit, which drives me to seek solutions that are both innovative and effective. An intrinsic part of my professional journey is fostering communication and collaboration; I genuinely thrive on engaging with individuals from diverse backgrounds and areas of expertise, believing that such interactions pave the way for richer insights and breakthrough solutions. 
 
-I received my M.Sc. degree in Artificial Intelligence from Qazvin Islamic Azad University (QIAU), Iran, in 2016, where I worked on data clustering and image segmentation based on graphical models under the supervision of [Dr. Mohammad Reza Meybodi](http://ceit.aut.ac.ir/~meybodi/) (Professor, Amirkabir University of Technology). In 2012, I received my B.Sc. degree in Computer Software Technology Engineering from Islamic Azad University, Mahabad Branch, Iran.  
+Currently, I am a Senior Data Scientist at Sopra Steria in Oslo, Norway, designing and implementing data and ML solutions for diverse clients spanning the public and private sectors, including industries like energy, finance, and IT. My work frequently harnesses the power of ML and XAI to extract actionable business insights from various data types—be it tabular, text, or image. At the core of my professional approach is a commitment to engineering solutions that are not only robust and high-quality but also easily interpretable, ensuring that the ML models I develop are both effective and transparent. Backing my work is a solid foundation of high-quality programming and hands-on expertise with data wrangling, visualization tools, ML development frameworks, big data technologies, and cloud-based web services.
 
-Research Interests
-=====
-- Machine Learning
-- Explainable AI (XAI)
-- Data Mining
-- Computer Vision
-- Natural Language Processing
+In 2023, I earned my PhD in Computer Science from the SIRIUS Research Center at the University of Oslo, with a focus on XAI. In my PhD research, I delved deep into the nuances of interpreting and improving complex ML models like Deep Neural Networks. Through this journey, I grasped the vital importance of XAI in building AI systems that are safe, fair, transparent, and accountable—a foundation for AI's ethical application in both societal and industrial settings. Before this, I obtained my M.Sc. in Artificial Intelligence in 2016 from Qazvin Islamic Azad University (QIAU), Iran, and my B.Sc. in Computer Software Technology Engineering in 2012 from Islamic Azad University, Mahabad Branch, Iran.
+
+If you share an interest in XAI, whether it is about its practical application in industry or research exploration, I would be happy to connect. Feel free to drop me an email or reach out on LinkedIn. 
 
