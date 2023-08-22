@@ -15,5 +15,5 @@ Currently, I am a Senior Data Scientist at Sopra Steria in Oslo, Norway, designi
 
 In 2023, I earned my PhD in Computer Science from the SIRIUS Research Center at the University of Oslo, with a focus on XAI. In my PhD research, I immersed myself in the nuances of interpreting and improving black-box ML models like Deep Neural Networks. Through this journey, I grasped the vital importance of XAI in building AI systems that are safe, fair, transparent, and accountable — a foundation for the ethical and responsible application of AI in both societal and industrial settings. Before this, I obtained my M.Sc. in Artificial Intelligence in 2016 from Qazvin Islamic Azad University (QIAU), Iran, where I conducted research on graphical models and various areas of computer vision. Prior to that, I earned my B.Sc. in Computer Software Technology Engineering in 2012 from Islamic Azad University, Mahabad Branch, Iran.
 
-If you share an interest in XAI, whether it is about its practical application in industry or research exploration, I would be happy to connect. Feel free to drop me an email or reach out on LinkedIn. 
+If you share an interest in XAI, whether it is practical application in industry or research exploration, I would be happy to connect. Feel free to drop me an email or reach out on LinkedIn. 
 
