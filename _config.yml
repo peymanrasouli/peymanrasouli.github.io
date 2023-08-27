@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Peyman Rasouli, PhD"
+  name             : "Peyman Rasouli"
   avatar           : "IMG_4044.jpeg"
-  bio              : "Senior Data Scientist"
+  bio              : "PhD, Senior Data Scientist"
   employer         : # ""
   location         : "Oslo, Norway"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
