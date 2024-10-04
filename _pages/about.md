@@ -9,7 +9,7 @@ redirect_from:
 ---
 About Me
 =====
-As a Senior Full-stack Data Scientist, I thrive on driving innovation through AI, solving complex challenges across multiple industries. My expertise spans Explainable AI (XAI), Machine Learning (ML), Large Language Models (LLMs), and data engineering, all with a focus on developing innovative, reliable, and explainable solutions that align with business objectives and create tangible value.
+As a Senior Full-stack Data Scientist, I thrive on driving innovation through AI, solving complex challenges across various industries. My expertise spans Explainable AI (XAI), Machine Learning (ML), Large Language Models (LLMs), and data engineering, all with a focus on developing innovative, reliable, and explainable solutions that align with business objectives and create tangible value.
 
 I am dedicated to building trustworthy ML models, integrating explainability to ensure compliance with industry regulations and standards while fostering greater confidence in AI-driven insights. From cloud-based data pipelines and model development to seamless production deployment, I turn cutting-edge technologies into actionable, user-centric solutions.
 
