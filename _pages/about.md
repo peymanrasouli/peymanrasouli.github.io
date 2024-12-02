@@ -9,7 +9,7 @@ redirect_from:
 ---
 About Me
 =====
-As a full-stack data scientist, I thrive on leveraging AI to solve complex challenges across various industries like energy, finance, and healthcare. My expertise spans Explainable AI (XAI), Machine Learning (ML), Large Language Models (LLMs), data engineering, and MLOps, all with a focus on developing innovative, reliable, and explainable solutions that align with business objectives and create tangible value.
+I thrive on leveraging AI to solve complex challenges across various industries like energy, finance, and healthcare. My expertise spans Explainable AI (XAI), Machine Learning (ML), Large Language Models (LLMs), data engineering, and MLOps, all with a focus on developing innovative, reliable, and explainable solutions that align with business objectives and create tangible value.
 
 I am dedicated to building trustworthy ML models, integrating explainability to ensure compliance with industry regulations and standards while fostering greater confidence in AI-driven insights. From cloud-based data pipelines and model development to seamless production deployment, I turn cutting-edge technologies into actionable, user-centric solutions.
 
