@@ -9,7 +9,7 @@ redirect_from:
 ---
 About Me
 =====
-As a Senior Full-stack Data Scientist, I specialize in developing innovative and trustworthy AI solutions aligned with business objectives across various domains, e.g., energy and healthcare. My core expertise lies in data science and XAI, complemented by hands-on experience with LLMs, data engineering, and MLOps, allowing me to engage in the entire AI lifecycle, collaborate seamlessly with team members, and contribute to diverse projects across the organization.
+As a Senior Full-stack Data Scientist, I specialize in developing innovative and trustworthy AI solutions aligned with business objectives across various domains such as energy and healthcare. My core expertise lies in data science and XAI, complemented by hands-on experience with LLMs, data engineering, and MLOps, allowing me to engage in the entire AI lifecycle, collaborate seamlessly with team members, and contribute to diverse projects across the organization.
 
 I focus on developing explainable AI solutions that meet regulatory standards and build user trust in their predictions. My approach emphasizes collaboration and agile development, fostering teamwork to deliver technically sound and timely solutions that align with organizational objectives. My mission is to lead transformative AI innovations that solve complex problems, inspire collaboration and learning, and create a profound impact on businesses and the people they serve.
 
