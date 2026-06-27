@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peyman Rasouli — Senior Data Scientist &amp; AI Engineer</title>
+  <meta name="description" content="Senior Full-stack Data Scientist &amp; AI Engineer. PhD, University of Oslo. Lysaker, Norway.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1782583004">
+</head>
+<body>
+
+  <!-- ── Navbar ──────────────────────────────────────────── -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">PR</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#research">Innovation</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero ────────────────────────────────────────────── -->
+  <section id="hero" class="hero">
+    <div class="hero-photo" style="width:302px;height:302px;border-radius:50%;overflow:hidden;margin:0 auto 40px;border:2px solid var(--border);flex-shrink:0;">
+      <img src="images/IMG_4044.jpeg" alt="Peyman Rasouli">
+    </div>
+    <p class="hero-eyebrow">Senior Data Scientist &amp; AI Engineer</p>
+    <h1 class="hero-name">Peyman<br>Rasouli</h1>
+    <p class="hero-tagline">Finding where AI creates real business value — then building the right solution, communicating it clearly, and driving adoption across the organisation.</p>
+    <div class="hero-stats">
+      <span class="hero-stat">8+ years industry experience</span>
+      <span class="hero-stat">Healthcare · Energy · Finance</span>
+      <span class="hero-stat">PhD, University of Oslo</span>
+    </div>
+    <span class="hero-location">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Lysaker, Norway
+    </span>
+    <div class="hero-links">
+      <a href="https://www.linkedin.com/in/peymanrasouli" class="hero-link" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/peymanrasouli" class="hero-link" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub
+      </a>
+      <a href="https://scholar.google.com/citations?user=MFV9RoTcbgcC&hl=en" class="hero-link" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        Scholar
+      </a>
+      <a href="mailto:peymanrasouli.pv@gmail.com" class="hero-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email
+      </a>
+      <a href="cv.pdf" class="hero-link hero-link-cv" download>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download CV
+      </a>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span>scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ── About ────────────────────────────────────────────── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">01</span>
+          <h2 class="section-title">About</h2>
+        </div>
+      </div>
+      <div class="about-blocks reveal">
+
+        <div class="about-block">
+          <p class="about-block-label">The Question</p>
+          <p class="about-block-text">The question I find most valuable in any organisation is not "how do we implement AI" — it is where would the right AI solution create genuine business value? That might mean eliminating a bottleneck that costs the team days each week, improving the accuracy of a decision that drives significant revenue, or enabling a level of insight that was simply not possible before. Over eight years across energy, healthcare, and finance, I have built my practice around that distinction: identifying the problems and opportunities where AI can make a real difference, and then doing the rigorous work of realising them.</p>
+        </div>
+
+        <div class="about-block">
+          <p class="about-block-label">The Method</p>
+          <p class="about-block-text">Fourteen years of formal education in software engineering and artificial intelligence provide the depth to move fluently across a wide methodological toolkit — from classical machine learning to generative and agentic AI, from data pipelines to explainability frameworks — and select the approach that genuinely fits the problem. This demands more than technical proficiency — it requires a clear understanding of the underlying problem, sound judgement on whether AI is the right answer, and the foresight to choose an approach that will genuinely deliver.</p>
+        </div>
+
+        <div class="about-block">
+          <p class="about-block-label">The Delivery</p>
+          <p class="about-block-text">The distance between a technically sound solution and an organisationally valued one is almost never algorithmic. It is a question of how clearly a solution is communicated, how naturally it integrates into existing workflows, and how confidently the people who depend on it learn to use it. Closing that distance is where the real work lies.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Expertise ─────────────────────────────────────────── -->
+  <section id="expertise" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">02</span>
+          <h2 class="section-title">Expertise</h2>
+        </div>
+      </div>
+      <div class="expertise-grid">
+
+        <div class="expertise-card reveal">
+          <div class="expertise-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3 class="expertise-title">Data Engineering &amp; MLOps</h3>
+          <p class="expertise-desc">Building the data foundations that make models reliable — scalable pipelines, clean features, and systems that stay robust in production.</p>
+          <ul class="expertise-list">
+            <li>Feature pipelines &amp; data lakes</li>
+            <li>ETL/ELT orchestration (Airflow, dbt)</li>
+            <li>Model deployment &amp; monitoring</li>
+            <li>CI/CD for ML (MLflow, DVC)</li>
+            <li>Cloud platforms: Azure, GCP, AWS</li>
+          </ul>
+        </div>
+
+        <div class="expertise-card reveal">
+          <div class="expertise-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3 class="expertise-title">Machine Learning &amp; LLMs</h3>
+          <p class="expertise-desc">Selecting and applying the right approach for the problem — from classical machine learning to large language models and autonomous agents.</p>
+          <ul class="expertise-list">
+            <li>Supervised &amp; unsupervised learning</li>
+            <li>Deep learning (PyTorch, TensorFlow)</li>
+            <li>LLM fine-tuning &amp; RAG pipelines</li>
+            <li>NLP, time-series, anomaly detection</li>
+            <li>Explainable AI (XAI) &amp; SHAP</li>
+          </ul>
+        </div>
+
+        <div class="expertise-card reveal">
+          <div class="expertise-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="expertise-title">Software Engineering</h3>
+          <p class="expertise-desc">Writing the code that connects data, models, and users — clean APIs, maintainable services, and production-ready software that holds up under real-world conditions.</p>
+          <ul class="expertise-list">
+            <li>Python, SQL, Scala, R</li>
+            <li>REST APIs &amp; microservices</li>
+            <li>Software design &amp; architecture</li>
+            <li>Containerisation &amp; Docker</li>
+            <li>Code review &amp; technical standards</li>
+          </ul>
+        </div>
+
+        <div class="expertise-card reveal">
+          <div class="expertise-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></svg>
+          </div>
+          <h3 class="expertise-title">Delivery &amp; Leadership</h3>
+          <p class="expertise-desc">Bridging the gap between a technically sound solution and one that organisations actually use — through clear communication, stakeholder alignment, and end-to-end ownership.</p>
+          <ul class="expertise-list">
+            <li>Technical leadership &amp; mentoring</li>
+            <li>Stakeholder communication &amp; buy-in</li>
+            <li>End-to-end production ownership</li>
+            <li>AI adoption &amp; change management</li>
+            <li>Cross-functional collaboration</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Professional Experience ───────────────────────────── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">03</span>
+          <h2 class="section-title">Professional Experience</h2>
+        </div>
+        <a href="cv.pdf" class="cv-download reveal" download>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download CV
+        </a>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-role">Senior Data Scientist</span>
+              <span class="timeline-period">May 2024 – Present</span>
+            </div>
+            <p class="timeline-org">NEC OncoImmunity (NOI) · Oslo, Norway</p>
+            <p class="timeline-desc">NEC OncoImmunity applies AI to personalised cancer vaccine design; the role was end-to-end ownership of that pipeline, from training and benchmarking specialised protein sequence models to building agentic discovery workflows and the explainability systems that made outputs usable by clinical and regulatory audiences. Every deliverable had to meet two bars simultaneously: strong performance against state-of-the-art baselines, and sufficient transparency for a regulated healthcare environment. The result was production-ready AI that moved the vaccine design process forward without compromising on clinical trust.</p>
+            <div class="timeline-tags">
+              <span class="tag">Drug Discovery</span><span class="tag">Personalised Medicine</span><span class="tag">Clinical Trust</span><span class="tag">Regulatory Compliance</span><span class="tag">High-stakes AI</span><span class="tag">AI Transparency</span><span class="tag">Biotech Innovation</span><span class="tag">IP &amp; Patents</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-role">Senior Data Scientist</span>
+              <span class="timeline-period">Oct 2022 – Apr 2024</span>
+            </div>
+            <p class="timeline-org">Sopra Steria · Oslo, Norway</p>
+            <p class="timeline-desc">A full-stack ML consulting role across oil &amp; gas and finance clients, covering cloud infrastructure, end-to-end model development for geoscience and drilling teams, and the client-facing tooling that brought model outputs into operational use. The role demanded breadth: data engineering, model training and deployment on cloud platforms, API development, and responsible AI practices embedded across all production systems. The measure of success was adoption: models and pipelines that domain experts depended on in their daily work.</p>
+            <div class="timeline-tags">
+              <span class="tag">Safety-critical Systems</span><span class="tag">Operational Efficiency</span><span class="tag">Expert Enablement</span><span class="tag">Real-time Decisions</span><span class="tag">Production Adoption</span><span class="tag">Human-AI Collaboration</span><span class="tag">Industrial AI</span><span class="tag">Client Delivery</span><span class="tag">AI at Scale</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-role">Industrial PhD Fellow</span>
+              <span class="timeline-period">Sep 2018 – Sep 2022</span>
+            </div>
+            <p class="timeline-org">SIRIUS – Center for Scalable Data Access, University of Oslo · Oslo, Norway</p>
+            <p class="timeline-desc">An industry-partnered PhD at the University of Oslo, focused on a gap that was holding back AI adoption in high-stakes industries: the absence of reliable methods to explain, audit, and correct black-box model behaviour in real operational settings. The research produced novel explainability and model debugging algorithms, validated with industry partners across healthcare and energy, published at major AI conferences, and released as open-source tools. The foundation that has informed every applied role since.</p>
+            <div class="timeline-tags">
+              <span class="tag">AI Trust</span><span class="tag">Black-box Accountability</span><span class="tag">Practitioner Empowerment</span><span class="tag">Research to Practice</span><span class="tag">Industrial Adoption</span><span class="tag">Open Source Impact</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ──────────────────────────────────────────── -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">04</span>
+          <h2 class="section-title">Projects</h2>
+        </div>
+      </div>
+      <div class="projects-list">
+
+        <div class="project-card reveal">
+          <img src="images/1.png" alt="Explainable Vaccine Design" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Explainable Vaccine Design</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">An explainability layer built into AI-driven vaccine design pipelines at a biotech company developing personalised cancer vaccines. Clinical researchers and regulatory reviewers needed genuine insight into why a model ranked certain candidates — not just the prediction, but the reasoning behind it. Delivered interactive dashboards and prototype-based transparent models that made AI behaviour visible and auditable to domain experts.</p>
+            <div class="project-tags">
+              <span class="tag">Clinical Trust</span><span class="tag">AI Transparency</span><span class="tag">Drug Discovery</span><span class="tag">Regulatory Compliance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/2.png" alt="Protein Sequence Classification" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Protein Sequence Classification</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">Fine-tuned protein language models for classifying biological sequences in the context of personalised cancer vaccine development — where off-the-shelf models fall short of clinical and scientific standards. The work involved base model selection, rigorous evaluation framework design, and systematic benchmarking against state-of-the-art to validate every training decision. The result was a production-grade classifier that measurably outperformed baselines and directly informed the vaccine development roadmap.</p>
+            <div class="project-tags">
+              <span class="tag">Biotech Innovation</span><span class="tag">Scientific Rigour</span><span class="tag">Healthcare AI</span><span class="tag">Production Adoption</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/3.png" alt="Agentic Target Discovery" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Agentic Target Discovery</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">An autonomous AI pipeline for identifying vaccine target candidates — combining semantic search over biological literature with sequence alignment and explicit human escalation triggers. Designed around uncertainty: confidence thresholds determined when the agent could proceed and when a domain expert needed to intervene. The result was a faster, more systematic approach to vaccine target discovery that kept human judgment in the loop where it mattered most.</p>
+            <div class="project-tags">
+              <span class="tag">Drug Discovery</span><span class="tag">Human-AI Collaboration</span><span class="tag">Accelerated Discovery</span><span class="tag">Biotech Innovation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/4.png" alt="Regulatory-grade RAG" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Regulatory-grade RAG</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">A retrieval-augmented generation system producing AI outputs calibrated and interpretable enough for regulatory review in a clinical setting. The challenge was not retrieval accuracy alone — regulatory audiences need to trace the reasoning behind every conclusion drawn from complex biomedical literature. Delivered a system combining structured retrieval with rigorous benchmarking, meeting the interpretability bar that regulated healthcare environments require.</p>
+            <div class="project-tags">
+              <span class="tag">Regulatory Compliance</span><span class="tag">Clinical Trust</span><span class="tag">AI Transparency</span><span class="tag">Healthcare AI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/5.png" alt="Subsurface Property Prediction" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Subsurface Property Prediction</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">End-to-end ML models predicting missing petrophysical curves and lithology from well log data, deployed into the daily workflows of geologists and petrophysicists at an oil &amp; gas client. The work covered data engineering, model development on cloud platforms, and integration into the client's industrial data platform. The measure of success was adoption — geoscience teams relying on the predictions as a standard part of their operational workflow.</p>
+            <div class="project-tags">
+              <span class="tag">Operational Efficiency</span><span class="tag">Expert Enablement</span><span class="tag">Production Adoption</span><span class="tag">Industrial AI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/6.png" alt="Real-time Drilling Intelligence" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Real-time Drilling Intelligence</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">A streaming ML system predicting subsurface properties on the fly during active drilling operations — processing live sensor data and returning predictions fast enough to inform in-the-moment decisions in the field. Built for a safety-critical environment where latency and reliability are non-negotiable. Delivered AI-driven intelligence embedded directly into drilling operations, putting data-driven decisions in the hands of geoscientists and drillers in real time.</p>
+            <div class="project-tags">
+              <span class="tag">Safety-critical Systems</span><span class="tag">Real-time Decisions</span><span class="tag">Field Operations</span><span class="tag">Industrial AI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/7.png" alt="Knowledge Graph-enhanced Explainability" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Knowledge Graph-enhanced Explainability</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">A research project combining domain knowledge graphs and ontologies with ML explainability methods — making model explanations grounded in the structured knowledge that domain experts actually use. Standard XAI methods produce explanations that are statistically valid but often semantically meaningless to practitioners; this work addressed that gap directly. The result was an explainability approach that spoke the language of the domain, not just the model.</p>
+            <div class="project-tags">
+              <span class="tag">AI Trust</span><span class="tag">Practitioner Empowerment</span><span class="tag">Black-box Accountability</span><span class="tag">Research to Practice</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/8.png" alt="Industrial XAI Validation" class="project-img">
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">Industrial XAI Validation</h3>
+              <a href="https://github.com/peymanrasouli" class="project-link" target="_blank" rel="noopener" aria-label="View project">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">A methodology and toolkit for validating explainability methods in real industrial deployments — bridging the gap between research algorithms that perform in controlled settings and the practical demands of healthcare and energy environments. Designed evaluation frameworks, worked directly with domain practitioners to assess explanation usefulness, and iterated on what actually helped people make better decisions. Released as open-source tools adopted by both research and industry communities.</p>
+            <div class="project-tags">
+              <span class="tag">Industrial Adoption</span><span class="tag">Open Source Impact</span><span class="tag">Research to Practice</span><span class="tag">AI Trust</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Certifications ────────────────────────────────────── -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">05</span>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+      </div>
+      <div class="cert-grid">
+
+        <div class="cert-card in-progress reveal">
+          <div class="cert-logo">AIGP</div>
+          <p class="cert-name">AI Governance Professional</p>
+          <p class="cert-issuer">IAPP · 2026</p>
+          <span class="cert-inprogress">in progress</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">API</div>
+          <p class="cert-name">Building with the Claude API</p>
+          <p class="cert-issuer">Anthropic Claude Academy · 2026</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">CC</div>
+          <p class="cert-name">Claude Code in Action</p>
+          <p class="cert-issuer">Anthropic Claude Academy · 2026</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">AS</div>
+          <p class="cert-name">Introduction to Agent Skills</p>
+          <p class="cert-issuer">Anthropic Claude Academy · 2026</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">MCP</div>
+          <p class="cert-name">Introduction to Model Context Protocol</p>
+          <p class="cert-issuer">Anthropic Claude Academy · 2026</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">PSD</div>
+          <p class="cert-name">Professional Scrum Developer I</p>
+          <p class="cert-issuer">Scrum.org · 2023</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">PSM</div>
+          <p class="cert-name">Professional Scrum Master I</p>
+          <p class="cert-issuer">Scrum.org · 2023</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">KCNA</div>
+          <p class="cert-name">Kubernetes &amp; Cloud Native Associate</p>
+          <p class="cert-issuer">Linux Foundation · 2023</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">DB·ML</div>
+          <p class="cert-name">Machine Learning Associate</p>
+          <p class="cert-issuer">Databricks · 2023</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">DB·DE</div>
+          <p class="cert-name">Data Engineer Associate</p>
+          <p class="cert-issuer">Databricks · 2022</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">AZ</div>
+          <p class="cert-name">DP-203: Azure Data Engineer Associate</p>
+          <p class="cert-issuer">Microsoft · 2022</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-logo">IMP</div>
+          <p class="cert-name">Industrial Mentoring Program</p>
+          <p class="cert-issuer">SIRIUS / UiO · 2019</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Research & IP ─────────────────────────────────────── -->
+  <section id="research" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">06</span>
+          <h2 class="section-title">Innovation</h2>
+        </div>
+      </div>
+
+      <p class="research-sub-label reveal">Publications</p>
+      <div class="publications-list">
+
+        <div class="publication-item reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2025</span>
+            <span class="pub-venue">EAGE</span>
+          </div>
+          <div class="pub-body">
+            <p class="pub-title">Demystifying the Model — Explainable AI and Uncertainty in the Context of Elastic Well Curve Predictions</p>
+            <p class="pub-authors">Peyman Rasouli et al.</p>
+            <p class="pub-venue-full">86th EAGE Annual Conference &amp; Exhibition</p>
+          </div>
+        </div>
+
+        <div class="publication-item reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2022</span>
+            <span class="pub-venue">JDSA</span>
+          </div>
+          <div class="pub-body">
+            <p class="pub-title">CARE: Coherent Actionable Recourse based on Sound Counterfactual Explanations</p>
+            <p class="pub-authors">Peyman Rasouli, Ingrid Chieh Yu</p>
+            <p class="pub-venue-full">International Journal of Data Science and Analytics (JDSA)</p>
+          </div>
+        </div>
+
+        <div class="publication-item reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2021</span>
+            <span class="pub-venue">IJCNN</span>
+          </div>
+          <div class="pub-body">
+            <p class="pub-title">Explainable Debugger for Black-box Machine Learning Models</p>
+            <p class="pub-authors">Peyman Rasouli, Ingrid Chieh Yu</p>
+            <p class="pub-venue-full">International Joint Conference on Neural Networks (IJCNN)</p>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="https://scholar.google.com/citations?user=MFV9RoTcbgcC&hl=en" class="scholar-link reveal" target="_blank" rel="noopener">View the full list on Google Scholar →</a>
+
+      <p class="research-sub-label reveal" style="margin-top:52px;">Patents</p>
+      <div class="publications-list">
+        <div class="publication-item reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2026</span>
+            <span class="pub-venue">Patent</span>
+          </div>
+          <div class="pub-body">
+            <p class="pub-title">A Feature Attribution Method for Distance-based Models</p>
+            <p class="pub-venue-full">Submitted 2026 · NEC OncoImmunity</p>
+          </div>
+        </div>
+        <div class="publication-item reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2026</span>
+            <span class="pub-venue">Patent</span>
+          </div>
+          <div class="pub-body">
+            <p class="pub-title">An ML Interpretation Method Using Domain Knowledge</p>
+            <p class="pub-venue-full">Submitted 2026 · NEC OncoImmunity</p>
+          </div>
+        </div>
+        <div class="publication-item reveal">
+          <div class="pub-meta">
+            <span class="pub-year">2025</span>
+            <span class="pub-venue">Patent</span>
+          </div>
+          <div class="pub-body">
+            <p class="pub-title">A Similarity Method for Sequence and Time-Series Data</p>
+            <p class="pub-venue-full">Submitted 2025 · NEC OncoImmunity</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Education ─────────────────────────────────────────── -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">07</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+      </div>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal">
+          <p class="edu-year">Sep 2018 – Jun 2023</p>
+          <h3 class="edu-degree">PhD — Informatics</h3>
+          <p class="edu-field">Explainable Artificial Intelligence (XAI)</p>
+          <p class="edu-institution">University of Oslo (UiO) · Oslo, Norway</p>
+        </div>
+
+        <div class="edu-card reveal">
+          <p class="edu-year">Jan 2013 – Jan 2016</p>
+          <h3 class="edu-degree">MSc — Computer Engineering</h3>
+          <p class="edu-field">Artificial Intelligence</p>
+          <p class="edu-institution">IAU, Qazvin Branch · Iran</p>
+          <span class="edu-gpa">CGPA 3.81 / 4.0</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <p class="edu-year">Feb 2010 – Feb 2012</p>
+          <h3 class="edu-degree">BSc — Computer Software Technology Engineering</h3>
+          <p class="edu-field">Software Engineering</p>
+          <p class="edu-institution">IAU, Mahabad Branch · Iran</p>
+          <span class="edu-gpa">CGPA 3.31 / 4.0</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <p class="edu-year">Feb 2008 – Feb 2010</p>
+          <h3 class="edu-degree">ASc — Computer Software Engineering</h3>
+          <p class="edu-field">Software Engineering</p>
+          <p class="edu-institution">Technical and Vocational University · Urmia, Iran</p>
+          <span class="edu-gpa">CGPA 3.37 / 4.0</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Languages ───────────────────────────────────────── -->
+  <section id="languages" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">08</span>
+          <h2 class="section-title">Languages</h2>
+        </div>
+      </div>
+      <div class="lang-grid reveal">
+
+        <!-- English -->
+        <div class="lang-card">
+          <div class="lang-header">
+            <div>
+              <p class="lang-name">English</p>
+              <p class="lang-sub">English</p>
+            </div>
+            <span class="lang-level">C2 · Proficient</span>
+          </div>
+          <blockquote class="lang-phrase">"It is a capital mistake to theorize before one has data."</blockquote>
+          <p class="lang-attr">— Arthur Conan Doyle</p>
+        </div>
+
+        <!-- Norwegian -->
+        <div class="lang-card">
+          <div class="lang-header">
+            <div>
+              <p class="lang-name">Norsk</p>
+              <p class="lang-sub">Norwegian</p>
+            </div>
+            <span class="lang-level">C1 · Advanced</span>
+          </div>
+          <blockquote class="lang-phrase">"Et menneske er sterkest når det vet å stå alene."</blockquote>
+          <p class="lang-attr">— Henrik Ibsen</p>
+          <p class="lang-translation">"A person is strongest when they know how to stand alone."</p>
+        </div>
+
+        <!-- Kurdish -->
+        <div class="lang-card">
+          <div class="lang-header">
+            <div>
+              <p class="lang-name">کوردی</p>
+              <p class="lang-sub">Kurdish (Sorani)</p>
+            </div>
+            <span class="lang-level">Native</span>
+          </div>
+          <blockquote class="lang-phrase lang-rtl">"کتێب باشترین هاوڕێیە."</blockquote>
+          <p class="lang-attr">— هەژار موکریانی</p>
+          <p class="lang-translation">"The book is the best companion."</p>
+        </div>
+
+        <!-- Persian -->
+        <div class="lang-card">
+          <div class="lang-header">
+            <div>
+              <p class="lang-name">فارسی</p>
+              <p class="lang-sub">Persian</p>
+            </div>
+            <span class="lang-level">Native</span>
+          </div>
+          <blockquote class="lang-phrase lang-rtl">"بنی‌آدم اعضای یک پیکرند / که در آفرینش ز یک گوهرند."</blockquote>
+          <p class="lang-attr">— سعدی، گلستان</p>
+          <p class="lang-translation">"Human beings are members of a whole, created of one essence and soul."</p>
+        </div>
+
+        <!-- Turkish — spans full width -->
+        <div class="lang-card">
+          <div class="lang-header">
+            <div>
+              <p class="lang-name">Türkçe</p>
+              <p class="lang-sub">Turkish</p>
+            </div>
+            <span class="lang-level">B2 · Upper Intermediate</span>
+          </div>
+          <blockquote class="lang-phrase">"Âşık ol ta ki cümle âlem sana âşık ola."</blockquote>
+          <p class="lang-attr">— Fuzuli (1494–1556)</p>
+          <p class="lang-translation">"Fall in love with all things, so that all things fall in love with you."</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ───────────────────────────────────────────── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-number">09</span>
+          <h2 class="section-title">Contact</h2>
+        </div>
+      </div>
+      <div class="contact-content reveal">
+        <p class="contact-text">Available for senior data science and AI engineering roles, and strategic AI consulting engagements across Norway and Europe. I solve hard problems end-to-end — from messy data to deployed, explainable models that stakeholders can trust.</p>
+        <div class="contact-links">
+
+          <a href="mailto:peymanrasouli.pv@gmail.com" class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            peymanrasouli.pv@gmail.com
+          </a>
+
+          <a href="https://www.linkedin.com/in/peymanrasouli" class="contact-item" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            linkedin.com/in/peymanrasouli
+          </a>
+
+          <a href="https://github.com/peymanrasouli" class="contact-item" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            github.com/peymanrasouli
+          </a>
+
+          <a href="https://scholar.google.com/citations?user=MFV9RoTcbgcC&hl=en" class="contact-item" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            Google Scholar
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© <span id="year"></span> Peyman Rasouli · Lysaker, Norway</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
